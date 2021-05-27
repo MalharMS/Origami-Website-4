@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #080f25;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.grid {
+    margin-top: 10%;
+}
+
+.grid h1 {
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    margin-bottom: 55px;
+    margin-top: -40px;
+    text-align: center;
+    color: #affc41;
+}
+
+.grid h3 {
+    color: #daffa7;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: medium;
+    line-height: 25px;
+}
+
+.element {
+    display: flex;
+    text-align: center;
+
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main {
+    background-color: aliceblue;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 30px;
+    color: rgb(177, 177, 177);
+    position: relative;
+}
+
+.main h3{
+    color: #001d3d;
+    font-size: 25px;
+}
+
+.main p{
+    color: #a8a8a8;
+    font-size: 17px;
+    margin: 12px ;
+    padding: 10px;
+}
+
+.btn {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #affc41;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #080f25;
+    border-radius: 100px;
+    box-shadow: -0.5px 1px 30px 2px #c7c7c7;
+    
+}
+
+.btn1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #affc41;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #080f25;
+    border-radius: 100px;
+    box-shadow: -0.5px 1px 30px 2px #c7c7c7;
+    margin: 40px;
+    margin-top: -50px;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    font-size: medium;
+    font-variant: small-caps;
+    color: #c7c7c7;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+}
+
+.link {
+    text-decoration: none;
+    color: coral;
+}
+
+.des {
+    font-size: 16px;
+    color: #294403;
+    text-align: center;
+    line-height: 20px;
+}
+.textus {
+    background-color: aliceblue;
+    margin: 30px;
+    padding: 50px;
+}
+
+.btn:hover {
+    background-color: #daffa7;
+    border: 2px solid;
+}
+
+.btn1:hover {
+    color: #000;
+}
+
+.main:hover {
+    background-color: #f0fff8;
+
+}
